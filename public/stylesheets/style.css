@@ -1,0 +1,163 @@
+
+div{
+  float:left;
+}
+.introduction {
+  width:40%;
+  height:40%;
+}
+.contact{
+  width:40%;
+  height: 150px;
+  margin-left: 4%;
+}
+.image{
+  width: 200px;
+  height: 220px;
+  border-radius: 50%;
+  background-color:rgba(50, 136, 248, 0.404);
+}
+.edu-sk{
+  display:flex;
+}
+.container2{
+  display: flex;
+}
+.education{
+  margin-top: 30px;
+  width:400px;
+  height: 440px;
+  position: absolute;
+  float: left;
+  margin-top: 250px;
+  
+}
+.skills{
+  width:400px;
+  height: 220px;
+  margin-left: 890px; position: absolute; top:0px; margin-top:160px;
+  
+}
+.internship{
+  width:600px !important;
+  height: 500px;
+  position: absolute;
+  margin-top: 600px;
+}
+.projects{
+  width:400px;
+  height: 720px;
+  margin-left: 890px;
+  position: absolute;
+  top:0px;
+  margin-top:260px;
+  
+}
+.languages{
+  width:400px;
+  height: 300px;
+  margin-left: 890px;
+  position: absolute;
+  top:0px;
+  margin-top:740px;
+}
+.interest{
+  width:400px;
+  height: 300px;
+  
+  margin-left: 890px;
+  position: absolute;
+  top:0px;
+  margin-top:910px; 
+}
+.con2{
+  margin-left: 10px;
+}
+.con4,.con5,.con6{
+  margin-left: 10px;
+}
+.introduction h1{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 23.1pt;
+  color: rgb(86, 226, 226);
+}
+.introduction p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12.1pt;
+}
+.education h1{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 13.9pt;
+  color: rgb(86, 226, 226);
+}
+.education h2{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12.1pt;
+}
+.education h3{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12.1pt;
+}
+.education p{
+  font-family: italic ubuntu;
+  font-size: 9pt;
+}
+.skills h1{
+  font-family: ubuntu;
+  font-size: 13.9pt;
+  color: rgb(86, 226, 226);
+}
+.skills button{
+  font-family: ubuntu;
+  font-size: 9pt;
+}
+.internship h1{
+  font-family: ubuntu;
+  font-size:13.9pt;
+  color: rgb(86, 226, 226);
+}
+.internship h2,h3{
+  font-family: ubuntu;
+  font-size:12.1pt;
+}
+.internship p{
+  font-family: ubuntu;
+  font-size: 8pt;
+}
+.contact{
+  font-size: 12pt;
+}
+.projects h1{
+  font-size: 13.9pt;
+  color: rgb(86, 226, 226);
+}
+.projects h2{
+  font-size: 10.1pt;
+}
+.projects p{
+  font-size:9pt;
+}
+.languages h1{
+  font-size: 13.9pt;
+  color: rgb(86, 226, 226);
+}
+.languages p{
+  font-size: 9pt;
+}
+.interest h1{
+  font-size: 13.9pt;
+  color: rgb(86, 226, 226);
+}
+.interest p{
+  font-size: 9pt;
+}
+.heading{
+  width:150px;
+  height:3px;
+  background-color: rgb(78, 78, 122);
+}
+@media screen and (max-width: 1300px) {
+  div {
+    position: relative !important;
+  }
+}

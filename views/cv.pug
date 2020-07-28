@@ -1,0 +1,82 @@
+<<!DOCTYPE html>
+html(lang="en")
+    head
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        meta(charset="UTF-8")
+        title Document
+    body
+     div.introduction
+        h1 #{locals.name}
+        p #{locals.title}
+        p #{locals.description}
+     div.image
+     div.contact
+        p #{locals.contact.email}
+        p #{locals.contact.mobile}
+        p #{locals.contact.address}
+     div.education
+        div.heading 
+            h1 Education
+        div.heading 
+        br
+        br
+        -for (var i = 0; i < 3; ++i) {
+            h2 #{locals.education.degree[i]}
+            h3 #{locals.education.institute[i]}
+            p #{locals.education.year[i]}
+        -}    
+     div.skills
+        div.heading 
+         h1 Skills
+        div.heading 
+        br
+        br
+        -for (var i = 0; i < 9; ++i) {
+          button #{locals.skills[i]}
+        -}
+     div.internship
+        div.heading 
+         h1 Internship
+        div.heading
+        br
+        -for (var i = 0; i < 2; ++i) {
+         h3 #{locals.experience.designation[i]}
+         h2 #{locals.experience.company[i]}
+         p #{locals.experience.year[i]}
+          -for (var j = 0; j < 4; ++j) {
+            li #{locals.experience.tasks[j]}</li>
+          -}
+        -}  
+     div.projects
+      div.heading 
+        h1 Personal Projects
+      div.heading
+      br
+      br
+      -for (var i = 0; i < 2; ++i) {
+        h2 #{locals.projects.title[i]}
+        p #{locals.projects.detail[i]}
+        p #{locals.projects.technology[i]}
+      -} 
+     div.languages
+      div.heading 
+        h1 Languages
+      div.heading
+      br
+      br
+      -for (var i = 0; i < 3; ++i) {
+       div.con1
+        p #{locals.languages.name[i]}
+        p #{locals.languages.proficiency[i]}
+      -}
+     div.interest
+      div.heading 
+        h1 Interests</h1>
+      div.heading
+      br
+      br
+      div.con4
+       -for (var i = 0; i < 3; ++i) {
+         p #{locals.interest[i]}
+       -}  
+        
